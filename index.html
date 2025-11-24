@@ -65,7 +65,7 @@
       <section class="page-section">
         <div class="container section-container hego-container">
           <h1 class="one-name">Effective Solutions for Your Business</h1>
-          <button class="button button-klick" type="button">
+          <button class="button button-klick" type="button" data-modal-open>
             <span class="section-span">Order Service</span>
           </button>
         </div>
@@ -432,7 +432,7 @@
           </p>
         </div>
 
-        <!-- Правий блок -->
+        <!-- Середній блок -->
         <div class="text-media">
           <p class="social-media">Social media</p>
           <ul class="icon-social ul-footer">
@@ -466,8 +466,39 @@
             </li>
           </ul>
         </div>
+
+        <!-- Правий блок -->
+        <div class="subscribe">
+          <p class="text-subscribe">Subscribe</p>
+          <form class="form">
+            <label class="label-subscribe">
+              <input
+                class="input"
+                name="email"
+                type="email"
+                placeholder="E-mail"
+              />
+            </label>
+            <button class="button-subscribe" type="submit">
+              Subscribe
+              <svg class="icon-telegram-airplane" width="24" height="24">
+                <use href="./images/icons.svg#icon-telegram-airplane"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
     <!-- #endregion footer -->
+
+    <!-- #region modal -->
+    <div class="backdrop" data-modal>
+      <div class="modal">
+        <button class="close-button" type="button" data-modal-close></button>
+      </div>
+    </div>
+
+    <!-- #endregion modal -->
+    <script src="./js/modal.js"></script>
   </body>
 </html>

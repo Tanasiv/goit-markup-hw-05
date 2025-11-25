@@ -691,8 +691,7 @@ a {
 }
 
 .form-container {
-  position: relative;
-  margin-bottom: 8px;
+  padding: 72px 24px 24px 24px;
 }
 
 .label-modal {
@@ -702,6 +701,11 @@ a {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
+}
+
+.input-wrapper {
+  margin-bottom: 8px;
+  position: relative;
 }
 
 .input-modal {

@@ -736,6 +736,10 @@ a {
   fill: #4d5ae5;
 }
 
+.form-container-comment {
+  margin-bottom: 16px;
+}
+
 .textarea {
   padding: 8px 16px;
   width: 100%;
@@ -793,9 +797,12 @@ a {
 
 .button-send {
   display: block;
+  text-align: center;
+  margin: auto;
   min-width: 169px;
   height: 56px;
   font-size: 16px;
+  line-height: 1.5;
   font-weight: 500;
   letter-spacing: 0.04em;
   cursor: pointer;
